@@ -29,7 +29,7 @@ function agregarProductosACarrito() {
   while (prodAAgregar != "0") {
     let textProductos = "";
     for (const producto of productos) {
-      textProductos += `codigo:${producto.id + 1} producto: ${
+      textProductos += `codigo:${producto.id} producto: ${
         producto.nombre
       } precio:${producto.precio}\n`;
     }
